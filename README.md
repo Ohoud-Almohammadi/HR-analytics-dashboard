@@ -22,9 +22,8 @@ A comprehensive HR Data Analytics project utilizing SQL for data cleaning and pr
 ### 2. Data Cleaning & Database Management (SQL Server) 
 Utilized **SQL Server Management Studio (SSMS)** to create a structured relational database and prepare the data for reporting:
 * **Schema & Table Creation:** Designed and built a relational database structure based on a **Star Schema** architecture (comprising a central Fact table for HR metrics and surrounding Dimension tables for employee attributes, departments, and dates).
-<br> 
-![Schema Preview](./assets/Schema.png)
-<br> 
+![Schema Preview](./assets/Diagram.png)
+
 * **Relationships & Integrity:** Established primary and foreign key relationships to maintain data integrity across employee profiles, compensation, and performance metrics.
 * **Data Preprocessing & Cleaning:** Data cleaning was performed to ensure the dataset was free from errors and inconsistencies.
 The following steps were taken:
@@ -34,7 +33,7 @@ The following steps were taken:
   #### 3. Check Missing/NULL Values 
 <br>
 
-> 🔗 **Download SQL Queries File:** [Data Cleaning SQL Script](./assets/Sample_of_Data-Cleaning-SQL-Queries.sql)
+> 🔗 **Download Sample SQL Queries File:** [Data Cleaning SQL Script](./assets/Sample_of_Data-Cleaning-SQL-Queries.sql)
 
 
 
