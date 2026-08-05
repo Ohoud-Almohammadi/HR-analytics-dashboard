@@ -1,2 +1,83 @@
-# HR-analytics-dashboard
+# 📊 HR Analytics & Workforce Performance Dashboard
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+
 An interactive HR Analytics dashboard built with Power BI and powered by SQL data preprocessing. Highlights key workforce KPIs and delivers detailed, data-backed HR insights through intuitive visual reports.
+
+---
+
+## 📄 Full Report Documentation
+> 💡 **View High-Resolution Report:** You can view complete report of all dashboard pages here:  
+> 🔗 **[Download Full HR Report (PDF)](./HR_Analytics_Report.pdf)**
+
+---
+
+## 🛠️ Project Workflow & Technical Steps
+
+### 1. Data Collection & Sourcing
+* **Data Source:** Extracted the HR dataset from Kaggle containing core employee demographics, performance metrics, department allocations, and turnover details.
+
+### 2. Data Cleaning & Database Management (SQL Server)
+Utilized **SQL Server Management Studio (SSMS)** to create a structured relational database and prepare the data for reporting:
+* **Schema & Table Creation:** Built dedicated relational tables to structure raw HR data.
+* **Data Preprocessing & Cleaning:** Handled missing values, sanitized column data types, and standardized date formats.
+* **Relationships & Integrity:** Established primary and foreign key relationships to maintain data integrity across employee profiles, compensation, and performance metrics.
+
+### 3. Power BI Integration & Data Modeling
+* **Database Connection:** Connected Power BI to SQL Server for efficient data retrieval.
+* **Data Transformation:** Applied Power Query for final data formatting and attribute structuring.
+* **DAX Calculations:** Formulated custom DAX measures for core KPIs including Total Employees (311), Turnover Rate (33%), Average Age (47), and Average Salary ($69.02K).
+
+---
+
+## 📈 Dashboard Overview & Key Visuals
+
+### Page 1: General Overview (نظرة عامة)
+Focuses on macro-level workforce KPIs, departmental distribution, tenure, and overall headcount status.
+
+![Overview Dashboard](./assets/dashboard_overview.png)
+
+* **Key Metrics:**
+  * **Total Employees:** 311
+  * **Total Managers:** 21
+  * **Average Age:** 47 | **Average Years of Service:** 3
+
+---
+
+### Page 2: Recruitment & Turnover Movement (تحليل حركة التوظيف)
+Analyzes hiring trends over time, employee attrition reasons, and performance rating correlation by recruitment channel.
+
+![Recruitment Dashboard](./assets/dashboard_recruitment.png)
+
+* **Key Metrics:**
+  * **Turnover Rate:** 33%
+  * **High Performers:** 90% | **Low Performers:** 10%
+  * **Insights:** Primary resignation cause tracked in the Production department (*Another position / Unhappy*).
+
+---
+
+### Page 3: Financial & Salary Analysis (التحليل المالي)
+Examines compensation structure across departments, position salary averages, and performance-to-salary distribution.
+
+![Financial Dashboard](./assets/dashboard_financial.png)
+
+* **Key Metrics:**
+  * **Average Salary:** $69.02K
+  * **Salary Range:** $45K (Min) – $250K (Max)
+  * **Departmental Highlights:** IT/IS leading in highest average salary ($97.06K).
+
+---
+
+## 💡 Key Business Insights
+1. **Workforce Stability:** High concentration of active staff with an average tenure of 3 years.
+2. **Turnover Drivers:** Production division records the highest turnover rate (75 resignations), primarily driven by competitive position offers and job satisfaction factors.
+3. **Recruitment Quality:** Platforms like *Indeed* and *LinkedIn* yield the highest volume of hires across various performance tiers.
+
+---
+
+## 🔒 License & Usage Note
+This repository and its contents are published strictly for **viewing and demonstration purposes**. 
+
+* **No Reuse / Redistribution:** Reproduction, modification, or commercial/non-commercial distribution of the code, queries, or dashboard structure is not permitted without explicit written approval.
+* **All Rights Reserved.**
