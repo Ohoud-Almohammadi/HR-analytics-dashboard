@@ -33,7 +33,9 @@ The following steps were taken:
   #### 3. Check Missing/NULL Values 
 <br>
 
-> 🔗 **Download Sample SQL Queries File:** [Data Cleaning SQL Script](./assets/Sample_of_Data-Cleaning-SQL-Queries.sql)
+![Schema Preview](./assets/sql_preprocessing_sample.png)
+
+> 🔗 **View Full Sample SQL Queries File:** [Data Cleaning SQL Script](./assets/Sample_of_Data-Cleaning-SQL-Queries.sql)
 
 
 
