@@ -43,13 +43,13 @@ The following steps were taken:
 
 
 ### 3. Power BI Integration & Data Modeling
-* **Database Connection:** Connected Power BI to SQL Server for efficient data retrieval.<br>
+* **Database Connection:** Connected Power BI to SQL Server for efficient data retrieval.<br><br>
 ![Source Connection Preview](./assets/connect_to_power_bi.png)
-* **Data Transformation:** Applied Power Query for final data formatting and attribute structuring.<br>
-![Source Connection Preview](./assets/Transformation_in_power_bi.png)
-* **Relationship Validation & Data Modeling:** Verified and refined the automatically generated relationships between the Fact and Dimension tables, ensuring proper 1-to-Many ($1:*$) cardinalities, correct primary/foreign key mappings, and single-direction cross-filtering for accurate DAX evaluations.<br>
+* **Data Transformation:** Applied Power Query for final data formatting and attribute structuring.<br><br>
+![Source Connection Preview](./assets/Transformation_inpower_bi.png)
+* **Relationship Validation & Data Modeling:** Verified and refined the automatically generated relationships between the Fact and Dimension tables, ensuring proper 1-to-Many ($1:*$) cardinalities, correct primary/foreign key mappings, and single-direction cross-filtering for accurate DAX evaluations.<br><br>
 ![Source Connection Preview](./assets/Model_in_power_bi.png)<br>
-* **DAX Calculations:** Formulated custom DAX measures for core KPIs including Total Employees (311), Turnover Rate (33%), Average Age (47), and Average Salary ($69.02K).<br>
+* **DAX Calculations:** Formulated custom DAX measures for core KPIs including Total Employees (311), Turnover Rate (33%), Average Age (47), and Average Salary ($69.02K).<br><br>
 ![Source Connection Preview](./assets/DAX_Measuers.png)
 
 ---
@@ -83,7 +83,7 @@ Analyzes hiring trends over time, employee attrition reasons, and performance ra
 ### Page 3: Financial & Salary Analysis (التحليل المالي)
 Examines compensation structure across departments, position salary averages, and performance-to-salary distribution.
 
-![Financial Dashboard](./assets/dashboard_financial.png)
+![Financial Dashboard](./assets/FinancialA_nalysis.png)
 
 * **Key Metrics:**
   * **Average Salary:** $69.02K
