@@ -100,7 +100,5 @@ Examines compensation structure across departments, position salary averages, an
 ---
 
 ## 🔒 License & Usage Note
-This repository and its contents are published strictly for **viewing and demonstration purposes**. 
+This repository and its contents are published by **Ohoud Almohammadi** strictly for **viewing and demonstration purposes**. 
 
-* **No Reuse / Redistribution:** Reproduction, modification, or commercial/non-commercial distribution of the code, queries, or dashboard structure is not permitted without explicit written approval.
-* **All Rights Reserved.**
