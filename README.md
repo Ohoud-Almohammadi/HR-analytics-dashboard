@@ -11,15 +11,35 @@ A comprehensive HR Data Analytics project utilizing SQL for data cleaning and pr
 
 ### 1. Data Collection & Sourcing
 * **Data Source:** Extracted the raw HR dataset from Kaggle containing core employee demographics, performance metrics, department allocations, and turnover details.
+
 * **Dataset Link:** 🔗 [Kaggle HR Dataset](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set/data)
+<br>
+
+
 ![Kaggle Dataset Preview](./assets/dataset.png)
 
 
-### 2. Data Cleaning & Database Management (SQL Server)
+### 2. Data Cleaning & Database Management (SQL Server) 
 Utilized **SQL Server Management Studio (SSMS)** to create a structured relational database and prepare the data for reporting:
-* **Schema & Table Creation:** Built dedicated relational tables to structure raw HR data.
-* **Data Preprocessing & Cleaning:** Handled missing values, sanitized column data types, and standardized date formats.
+* **Schema & Table Creation:** Designed and built a relational database structure based on a **Star Schema** architecture (comprising a central Fact table for HR metrics and surrounding Dimension tables for employee attributes, departments, and dates).
+<br> 
+![Schema Preview](./assets/Schema.png)
+<br> 
 * **Relationships & Integrity:** Established primary and foreign key relationships to maintain data integrity across employee profiles, compensation, and performance metrics.
+* **Data Preprocessing & Cleaning:** Data cleaning was performed to ensure the dataset was free from errors and inconsistencies.
+The following steps were taken:
+
+  #### 1. Remove Duplicates
+  #### 2. Convert Data Types
+  #### 3. Check Missing/NULL Values 
+<br>
+
+> 🔗 **Download SQL Queries File:** [Data Cleaning SQL Script](./assets/Sample_of_Data-Cleaning-SQL-Queries.sql)
+
+
+
+
+
 
 ### 3. Power BI Integration & Data Modeling
 * **Database Connection:** Connected Power BI to SQL Server for efficient data retrieval.
