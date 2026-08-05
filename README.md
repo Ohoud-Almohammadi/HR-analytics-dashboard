@@ -3,20 +3,17 @@
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 
-An interactive HR Analytics dashboard built with Power BI and powered by SQL data preprocessing. Highlights key workforce KPIs and delivers detailed, data-backed HR insights through intuitive visual reports.
+A comprehensive HR Data Analytics project utilizing SQL for data cleaning and preprocessing, and Power BI for interactive visualization and KPI tracking. This project features dynamic dashboards designed to deliver actionable HR insights and support data-driven decision-making.
 
----
 
-## 📄 Full Report Documentation
-> 💡 **View High-Resolution Report:** You can view complete report of all dashboard pages here:  
-> 🔗 **[Download Full HR Report (PDF)](./HR_Analytics_Report.pdf)**
-
----
 
 ## 🛠️ Project Workflow & Technical Steps
 
 ### 1. Data Collection & Sourcing
-* **Data Source:** Extracted the HR dataset from Kaggle containing core employee demographics, performance metrics, department allocations, and turnover details.
+* **Data Source:** Extracted the raw HR dataset from Kaggle containing core employee demographics, performance metrics, department allocations, and turnover details.
+* **Dataset Link:** 🔗 [Kaggle HR Dataset](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set/data)
+![Kaggle Dataset Preview](./assets/dataset.png)
+
 
 ### 2. Data Cleaning & Database Management (SQL Server)
 Utilized **SQL Server Management Studio (SSMS)** to create a structured relational database and prepare the data for reporting:
