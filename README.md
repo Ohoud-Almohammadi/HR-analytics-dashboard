@@ -21,7 +21,7 @@ A comprehensive HR Data Analytics project utilizing SQL for data cleaning and pr
 
 ### 2. Data Cleaning & Database Management (SQL Server) 
 Utilized **SQL Server Management Studio (SSMS)** to create a structured relational database and prepare the data for reporting:
-* **Schema & Table Creation:** Designed and built a relational database structure based on a **Star Schema** architecture (comprising a central Fact table for HR metrics and surrounding Dimension tables for employee attributes, departments, and dates).
+* **Schema & Table Creation:** Designed and built a relational database structure based on a **Star Schema** architecture (comprising a central Fact table for HR metrics and surrounding Dimension tables for employee attributes, departments, and dates).<br><br>
 ![Schema Preview](./assets/Diagram.png)
 
 * **Relationships & Integrity:** Established primary and foreign key relationships to maintain data integrity across employee profiles, compensation, and performance metrics.
@@ -41,9 +41,14 @@ The following steps were taken:
 
 
 ### 3. Power BI Integration & Data Modeling
-* **Database Connection:** Connected Power BI to SQL Server for efficient data retrieval.
-* **Data Transformation:** Applied Power Query for final data formatting and attribute structuring.
-* **DAX Calculations:** Formulated custom DAX measures for core KPIs including Total Employees (311), Turnover Rate (33%), Average Age (47), and Average Salary ($69.02K).
+* **Database Connection:** Connected Power BI to SQL Server for efficient data retrieval.<br>
+![Source Connection Preview](./assets/connect_to_power_bi.png)
+* **Data Transformation:** Applied Power Query for final data formatting and attribute structuring.<br>
+![Source Connection Preview](./assets/Transformation_in_power_bi.png)
+* **Relationship Validation & Data Modeling:** Verified and refined the automatically generated relationships between the Fact and Dimension tables, ensuring proper 1-to-Many ($1:*$) cardinalities, correct primary/foreign key mappings, and single-direction cross-filtering for accurate DAX evaluations.<br>
+![Source Connection Preview](./assets/Model_in_power_bi.png)<br>
+* **DAX Calculations:** Formulated custom DAX measures for core KPIs including Total Employees (311), Turnover Rate (33%), Average Age (47), and Average Salary ($69.02K).<br>
+![Source Connection Preview](./assets/DAX_Measuers.png)
 
 ---
 
@@ -52,7 +57,7 @@ The following steps were taken:
 ### Page 1: General Overview (نظرة عامة)
 Focuses on macro-level workforce KPIs, departmental distribution, tenure, and overall headcount status.
 
-![Overview Dashboard](./assets/dashboard_overview.png)
+![Overview Dashboard](./assets/Overview.png)
 
 * **Key Metrics:**
   * **Total Employees:** 311
@@ -64,7 +69,7 @@ Focuses on macro-level workforce KPIs, departmental distribution, tenure, and ov
 ### Page 2: Recruitment & Turnover Movement (تحليل حركة التوظيف)
 Analyzes hiring trends over time, employee attrition reasons, and performance rating correlation by recruitment channel.
 
-![Recruitment Dashboard](./assets/dashboard_recruitment.png)
+![Recruitment Dashboard](./assets/Emoloyment_Movment.png)
 
 * **Key Metrics:**
   * **Turnover Rate:** 33%
