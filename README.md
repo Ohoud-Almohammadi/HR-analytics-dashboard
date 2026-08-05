@@ -4,8 +4,8 @@
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 
 A comprehensive HR Data Analytics project utilizing SQL for data cleaning and preprocessing, and Power BI for interactive visualization and KPI tracking. This project features dynamic dashboards designed to deliver actionable HR insights and support data-driven decision-making.
-
-
+<br><br>
+![Overview Dashboard](./assets/Overview.png)
 
 ## 🛠️ Project Workflow & Technical Steps
 
