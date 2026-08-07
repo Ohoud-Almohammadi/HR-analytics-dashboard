@@ -99,6 +99,11 @@ Examines compensation structure across departments, position salary averages, an
 
 ---
 
+## 📥 **Download & View File
+** You can access the full interactive Power BI report directly from this repository:
+👉 **[Download HR Analysis Project (HR.pbix)](./)**
+
+
 ## 🔒 License & Usage Note
 This repository and its contents are published by **Ohoud Almohammadi** strictly for **viewing and demonstration purposes**. 
 
